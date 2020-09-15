@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">GaltTereg</string>
+    <string name="dialog_text">Энэд одоо юу ч байхийн бүү мэд</string>
+    <string name="dialog_button_right_text">Баруун</string>
+    <string name="dialog_button_leftt_text">Зүүн</string>
+    <string-array name="sex">
+        <item>Хүйс</item>
+        <item>Эр</item>
+        <item>Эм</item>
+    </string-array>
+</resources>
