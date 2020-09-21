@@ -62,7 +62,28 @@ public class MainActivity extends AppCompatActivity {
             customAlertDialog.show();
         });
         btn_1.setOnClickListener(v -> {
-            Intent intent = new Intent(context, FormActivity.class);
+            Intent intent = new Intent(this, WebActivity.class);
+            intent.putExtra("url", "https://www.google.mn/");
+            startActivity(intent);
+        });
+        btn_2.setOnClickListener(v -> {
+            Intent intent = new Intent(this, WebActivity.class);
+            intent.putExtra("url", "https://www.youtube.com/");
+            startActivity(intent);
+        });
+        btn_3.setOnClickListener(v -> {
+            Intent intent = new Intent(this, WebActivity.class);
+            intent.putExtra("url", "https://github.com/");
+            startActivity(intent);
+        });
+        btn_4.setOnClickListener(v -> {
+            Intent intent = new Intent(this, WebActivity.class);
+            intent.putExtra("url", "https://www.instagram.com/?hl=en");
+            startActivity(intent);
+        });
+        btn_5.setOnClickListener(v -> {
+            Intent intent = new Intent(this, WebActivity.class);
+            intent.putExtra("url", "http://gmail.com/");
             startActivity(intent);
         });
 
